@@ -17,6 +17,6 @@ provider "azurerm" {
 
 # Define the resource group
 resource "azurerm_resource_group" "example" {
-  name     = "RG"
+  name     = "RG1"
   location = "South India"
 }
