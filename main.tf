@@ -14,8 +14,8 @@ provider "azurerm" {
   }
 }
 
-module "example" {
-  source                   = "./variable.tf"
+module "variable" {
+  source                   = "./example-module"
   resource_group_name      = "example-resource-group"
   virtual_network_name     = "example-virtual-network"
 }
