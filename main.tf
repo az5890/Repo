@@ -15,7 +15,7 @@ provider "azurerm" {
 }
 
 module "variable" {
-  source                   = "../C:\Repo\variable.tf"
+  source                   = "../../modules/"
   resource_group_name      = "example-resource-group"
   virtual_network_name     = "example-virtual-network"
 }
