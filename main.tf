@@ -19,8 +19,3 @@ resource "azurerm_resource_group" "example" {
   location = "East US"
 }
 
-# module "variable" {
-#   source                   = "../../C:\Repo\variable.tf"
-#   resource_group_name      = "example-resource-group"
-#   virtual_network_name     = "example-virtual-network"
-# }
