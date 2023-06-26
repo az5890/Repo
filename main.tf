@@ -16,7 +16,7 @@ provider "azurerm" {
 
 module "resource_group" {
   source = "./module-rg"
-  resource_group = var.azurerm_resource_group
+  example = var.azurerm_resource_group
   # resource = var.azurerm_resource_group
 }
 
