@@ -14,3 +14,6 @@ provider "azurerm" {
   }
 }
 
+module "resource_group" {
+  source = "./module-1"
+}
